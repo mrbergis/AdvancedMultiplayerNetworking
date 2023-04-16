@@ -57,11 +57,12 @@ public class PlayerLogic : NetworkBehaviour
             
             if(Input.GetButtonDown("Fire1"))
             {
-                RayCastForward();
+                CmdRayCastForward();
             }
         }
     
-        void RayCastForward()
+        [Command]
+        void CmdRayCastForward()
         {
             Ray ray = new Ray(transform.position, transform.forward);
             RaycastHit rayHit;
@@ -71,10 +72,10 @@ public class PlayerLogic : NetworkBehaviour
                 Debug.Log("Hit: " + rayHit.collider.name);
                 if(rayHit.collider.tag == "Pillar")
                 {
-                    MeshRenderer meshRenderer = rayHit.collider.GetComponent<MeshRenderer>();
-                    if(meshRenderer)
+                    PillarLogic pillarLogic = rayHit.collider.GetComponent<PillarLogic>();
+                    if(pillarLogic)
                     {
-                        meshRenderer.material.color = _playerColor;
+                        pillarLogic.RpcSetColor(_playerColor);
                     }
                 }
             }

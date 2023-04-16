@@ -42,9 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/PlayerLogic.cs" />
+     <Compile Include="Assets/Scripts/PillarLogic.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+     <Folder Include="Assets/Prefabs" />
      <Folder Include="Assets/Mirror/Plugins" />
      <None Include="Assets/Mirror/Version.txt" />
      <None Include="Assets/Mirror/Readme.txt" />
@@ -53,6 +55,7 @@
      <None Include="Assets/Mirror/Notice.txt" />
      <Folder Include="Assets/Scripts" />
      <None Include="Assets/Mirror/Plugins/Mono.Cecil/License.txt" />
+     <Folder Include="Assets/Materials" />
      <None Include="Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
      <Folder Include="Assets/Mirror" />
      <Folder Include="Assets/ScriptTemplates" />
