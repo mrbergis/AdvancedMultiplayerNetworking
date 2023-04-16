@@ -54,8 +54,31 @@ public class PlayerLogic : NetworkBehaviour
             {
                 _jump = true;
             }
+            
+            if(Input.GetButtonDown("Fire1"))
+            {
+                RayCastForward();
+            }
         }
     
+        void RayCastForward()
+        {
+            Ray ray = new Ray(transform.position, transform.forward);
+            RaycastHit rayHit;
+
+            if(Physics.Raycast(ray, out rayHit, 100.0f))
+            {
+                Debug.Log("Hit: " + rayHit.collider.name);
+                if(rayHit.collider.tag == "Pillar")
+                {
+                    MeshRenderer meshRenderer = rayHit.collider.GetComponent<MeshRenderer>();
+                    if(meshRenderer)
+                    {
+                        meshRenderer.material.color = _playerColor;
+                    }
+                }
+            }
+        }
         
         void FixedUpdate()
         {

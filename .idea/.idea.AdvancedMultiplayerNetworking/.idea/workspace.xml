@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dc8374f-a061-4e52-b695-db219cc38497" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdvancedMultiplayerNetworking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdvancedMultiplayerNetworking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLogic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681638359890</updated>
-      <workItem from="1681638366097" duration="2374000" />
+      <workItem from="1681638366097" duration="3431000" />
     </task>
     <servers />
   </component>
