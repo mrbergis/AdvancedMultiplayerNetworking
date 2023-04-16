@@ -17,13 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Authenticators", "Mirror.Authenticators.csproj", "{e3417313-8c1e-3009-be3e-88777aeec6ec}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{32c20876-9a02-f050-b781-8cc23b266e8c}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Editor", "Mirror.Editor.csproj", "{b429ecf1-8658-3c58-70dd-e6f7b9f6f667}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mirror.CodeGen", "Unity.Mirror.CodeGen.csproj", "{3737be9a-890e-339c-658d-33dbaa131d19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.CompilerSymbols", "Mirror.CompilerSymbols.csproj", "{93c38f5d-2fda-0834-8096-945125ba4dbf}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{32c20876-9a02-f050-b781-8cc23b266e8c}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,14 +46,14 @@ Global
 		{d95e0da4-b370-5300-4357-b69581979e56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e3417313-8c1e-3009-be3e-88777aeec6ec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e3417313-8c1e-3009-be3e-88777aeec6ec}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32c20876-9a02-f050-b781-8cc23b266e8c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32c20876-9a02-f050-b781-8cc23b266e8c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b429ecf1-8658-3c58-70dd-e6f7b9f6f667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b429ecf1-8658-3c58-70dd-e6f7b9f6f667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3737be9a-890e-339c-658d-33dbaa131d19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3737be9a-890e-339c-658d-33dbaa131d19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93c38f5d-2fda-0834-8096-945125ba4dbf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93c38f5d-2fda-0834-8096-945125ba4dbf}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32c20876-9a02-f050-b781-8cc23b266e8c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32c20876-9a02-f050-b781-8cc23b266e8c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
